@@ -3,7 +3,7 @@ import express from "express"
 const app=express();
 
 app.get("/",(req,res)=>{
-    res.send("get page all good .")
+    res.send("we are on trial_branch")
 })
 
 
